@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "Stats rethinking"
+version = "0.1.0"
+description = "Statistical rethinking"
+authors = ["David Masip < [david.masip@glovoapp.com] >"]
+
+[tool.poetry.dependencies]
+python = "3.8.6"
+pandas = ">=1.1.5"
+pymc3 = ">=3.11.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
