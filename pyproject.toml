@@ -8,8 +8,10 @@ authors = ["David Masip < [david.masip@glovoapp.com] >"]
 python = "3.8.6"
 pandas = ">=1.1.5"
 pymc3 = ">=3.11.2"
+pymc3-quap = ">=0.1.0"
 ipykernel = ">=5.5.0"
 seaborn = ">=0.11.1"
+statsmodels = ">=0.12.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
